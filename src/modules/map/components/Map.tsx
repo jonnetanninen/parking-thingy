@@ -9,7 +9,7 @@ import axios from 'axios';
 const MAP_URL = 'https://tiles.hel.ninja/styles/hel-osm-bright/{z}/{x}/{y}.png';
 
 const Map = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const currentLang = i18n.language as 'fi' | 'en' | 'sv';
   const [facilities, setFacilities] = useState<Facility[]>([]);
   const [activeFacility, setActiveFacility] = useState<Facility>();
@@ -67,8 +67,8 @@ const Map = () => {
   return (
     <div className={css.container}>
       <header>
-        <h1>Otsikko tähän</h1>
-        <p>Jotain liirum laarumia ja ohjeita sovelluksen käyttämiseen.</p>
+        <h1>{t('MAP:title')}</h1>
+        <p>{t('MAP:content')}</p>
       </header>
       <div id={'mapid'}>
         <MapContainer

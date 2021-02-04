@@ -1,5 +1,14 @@
 {
   "en": {
-
+    "MAP": {
+      "title": "HKI Park & Ride map",
+      "content": "On the map you can see Park & Ride spots of city of Helsinki. Select a spot on the map to see detailed information."
+    }
+  },
+  "fi": {
+    "MAP": {
+      "title": "HKI liityntäpysäköintikartta",
+      "content": "Kartalla näet Helsingin liityntäpysäköintikohteet. Valitse kohde kartalta nähdäksesi tarkemmat tiedot."
+    }
   }
 }
