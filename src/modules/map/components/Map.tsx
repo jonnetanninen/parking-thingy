@@ -66,6 +66,10 @@ const Map = () => {
 
   return (
     <div className={css.container}>
+      <header>
+        <h1>Otsikko tähän</h1>
+        <p>Jotain liirum laarumia ja ohjeita sovelluksen käyttämiseen.</p>
+      </header>
       <div id={'mapid'}>
         <MapContainer
           center={[60.17, 24.94]}

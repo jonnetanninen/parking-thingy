@@ -18,3 +18,19 @@ code {
   height: 500px;
   width: 100%;
 }
+
+h1 {
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #05081f;
+}
+
+p {
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #05081f;
+}
