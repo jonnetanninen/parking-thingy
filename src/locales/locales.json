@@ -1,14 +1,24 @@
 {
   "en": {
     "MAP": {
+      "capacity": "Capacity",
+      "content": "On the map you can see Park & Ride spots of city of Helsinki. Select a spot on the map to see detailed information.",
+      "name": "Name",
+      "pricingMethod": "Pricing method",
+      "status": "Status",
       "title": "HKI Park & Ride map",
-      "content": "On the map you can see Park & Ride spots of city of Helsinki. Select a spot on the map to see detailed information."
+      "type": "Type"
     }
   },
   "fi": {
     "MAP": {
+      "capacity": "Kapasiteetti",
+      "content": "Kartalla näet Helsingin liityntäpysäköintikohteet. Valitse kohde kartalta nähdäksesi tarkemmat tiedot.",
+      "name": "Nimi",
+      "pricingMethod": "Hinnoittelumalli",
+      "status": "Tila",
       "title": "HKI liityntäpysäköintikartta",
-      "content": "Kartalla näet Helsingin liityntäpysäköintikohteet. Valitse kohde kartalta nähdäksesi tarkemmat tiedot."
+      "type": "Tyyppi"
     }
   }
 }

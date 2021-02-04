@@ -3,8 +3,9 @@ import css from './Map.module.scss';
 import { useTranslation } from 'react-i18next';
 import { MapContainer, TileLayer, Polygon } from 'react-leaflet';
 import { LatLngExpression } from 'leaflet';
-import { Facility } from '../types/Facility';
+import { Facility } from '../../../types/Facility';
 import axios from 'axios';
+import FacilityDetailsCard from './FacilityDetailsCard'
 
 const MAP_URL = 'https://tiles.hel.ninja/styles/hel-osm-bright/{z}/{x}/{y}.png';
 
@@ -88,7 +89,7 @@ const Map = () => {
           ))}
         </MapContainer>
         <div>
-          {activeFacility && activeFacility.name[currentLang]}
+          {activeFacility && <FacilityDetailsCard facility={activeFacility} />}
         </div>
       </div>
     </div>

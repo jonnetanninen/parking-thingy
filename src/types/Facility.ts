@@ -1,10 +1,8 @@
+import { TranslatableObject } from './TranslatableObject';
+
 export type Facility = {
   id: number;
-  name: {
-    fi: string;
-    sv: string;
-    en: string;
-  };
+  name: TranslatableObject;
   location: {
     crs: {
       type: string;
