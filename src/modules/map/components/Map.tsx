@@ -85,7 +85,7 @@ const Map = () => {
             url={MAP_URL}
           />
           {facilities.map((x) => (
-            <Polygon eventHandlers={{ click: () => setActiveFacility(x) }} positions={getPolygonPositions(x)} />
+            <Polygon key={x.id} eventHandlers={{ click: () => setActiveFacility(x) }} positions={getPolygonPositions(x)} />
           ))}
         </MapContainer>
         <div>
