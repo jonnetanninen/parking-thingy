@@ -29,3 +29,9 @@ img {
     cursor: pointer;
   }
 }
+
+@media (max-width: 768px) {
+  .content {
+    padding: 0 20px;
+  }
+}

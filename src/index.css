@@ -34,3 +34,10 @@ p {
   letter-spacing: normal;
   color: #05081f;
 }
+
+@media (max-width: 768px) {
+  .leaflet-container {
+    height: 280px;
+    width: 100%;
+  }
+}

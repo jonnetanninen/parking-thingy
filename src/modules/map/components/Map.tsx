@@ -71,7 +71,7 @@ const Map = () => {
         <h1>{t('MAP:title')}</h1>
         <p>{t('MAP:content')}</p>
       </header>
-      <div id={'mapid'}>
+      <div className={css.mapWrapper}>
         <MapContainer
           center={[60.17, 24.94]}
           zoom={12}
