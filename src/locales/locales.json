@@ -1,24 +1,50 @@
 {
   "en": {
     "MAP": {
+      "BICYCLE": "Bicycle",
+      "BICYCLE_SECURE_SPACE": "Bicycle, locked space",
       "capacity": "Capacity",
+      "CAR": "Car",
       "content": "On the map you can see Park & Ride spots of city of Helsinki. Select a spot on the map to see detailed information.",
+      "CUSTOM": "Custom",
+      "DISABLED": "Disabled parking",
+      "ELECTRIC_CAR": "Electric Car",
+      "EXCEPTIONAL_SITUATION": "Exceptional situation",
+      "INACTIVE": "Inactive",
+      "IN_OPERATION": "In Operation",
+      "MOTORCYCLE": "Motorcycle",
       "name": "Name",
+      "PARK_AND_RIDE_247_FREE": "24h free park & ride",
       "pricingMethod": "Pricing method",
       "status": "Status",
+      "TEMPORARILY_CLOSED": "Temporarily closed",
       "title": "HKI Park & Ride map",
-      "type": "Type"
+      "type": "Type",
+      "vehicleType": "Vehicle type"
     }
   },
   "fi": {
     "MAP": {
+      "BICYCLE": "Polkypyörä",
+      "BICYCLE_SECURE_SPACE": "Polkupyörä, lukittu tila",
       "capacity": "Kapasiteetti",
+      "CAR": "Auto",
       "content": "Kartalla näet Helsingin liityntäpysäköintikohteet. Valitse kohde kartalta nähdäksesi tarkemmat tiedot.",
+      "CUSTOM": "Mukautettu",
+      "DISABLED": "Invapaikka",
+      "ELECTRIC_CAR": "Sähköauto",
+      "EXCEPTIONAL_SITUATION": "Poikkeuksellinen tilanne",
+      "INACTIVE": "Pois käytöstä",
+      "IN_OPERATION": "Käytössä",
+      "MOTORCYCLE": "Moottoripyörä",
       "name": "Nimi",
+      "PARK_AND_RIDE_247_FREE": "24h ilmainen liityntäpysäköinti",
       "pricingMethod": "Hinnoittelumalli",
       "status": "Tila",
+      "TEMPORARILY_CLOSED": "Tilapäisesti pois käytöstä",
       "title": "HKI liityntäpysäköintikartta",
-      "type": "Tyyppi"
+      "type": "Tyyppi",
+      "vehicleType": "Ajoneuvotyyppi"
     }
   }
 }

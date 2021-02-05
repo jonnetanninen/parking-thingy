@@ -2,4 +2,14 @@
   padding: 1rem;
   text-align: left;
   background-color: #ebedf1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+}
+
+th, td {
+    padding: 8px 20px 8px 0;
 }

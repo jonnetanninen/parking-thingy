@@ -21,7 +21,12 @@ export type Facility = {
   statusDescription?: string;
   softDeletedAt?: string;
   builtCapacity: {
-    CAR: number;
+    CAR?: number;
+    DISABLED?: number;
+    ELECTRIC_CAR?: number;
+    MOTORCYCLE?: number;
+    BICYCLE?: number;
+    BICYCLE_SECURE_SPACE?: number;
   };
   usages: string[];
 };
