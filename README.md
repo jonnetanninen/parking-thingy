@@ -1,6 +1,18 @@
-# Getting Started with Create React App
+# HKI Park & Ride map
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project contains unofficial map of Park & Ride parking spaces in the city of Helsinki and nearby municipalities.
+
+Demo runs at [here.](https://map-thingy.herokuapp.com/)
+
+Application uses <a href="https://p.hsl.fi/docs/index.html">"HSL Park and Ride API"</a> by <a href="https://hsl.fi">HSL</a> which is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
+
+# Getting Started
+
+This project was boostrapped with Create React App.
+
+## Pre-requisites
+
+Node & Yarn
 
 ## Available Scripts
 
@@ -49,6 +61,6 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 # TODO:
 
 1. Display facility status with polygon color
-2. Add more details to facility details
-3. Add testing for UI components
+2. Add further details for facilities
+3. Add smoke tests for UI components
 
